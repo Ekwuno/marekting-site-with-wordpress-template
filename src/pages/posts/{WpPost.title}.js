@@ -6,10 +6,10 @@ export default function BlogPost({ data }) {
   // console.log(post);
   return (
     <div>
-      <div>
+      {/* <div>
         <h1>{data.WpPost.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: data.WpPost.excerpt }} />
-      </div>
+      </div> */}
       
     </div>
   );
